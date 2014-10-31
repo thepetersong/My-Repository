@@ -53,7 +53,7 @@ difference()
 
 module spikes() //Let's add some personality
 {	
-		for ( i = [0:5] )
+		for ( i = [1:5] )
 				rotate([0, 0, i *360/ 6]) union()
 				{
 				color(strap_color)translate([0,0,1])cylinder(30,42,38,$fn=100);
